@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+       
+}
+
+
+nav{
+
+    background-color: #9376e0;
+}
+.nav_container{
+    max-width: 75rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    /* max-width: 30%; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 10%;
+    
+}
+.menus {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.menus li{
+    list-style: none;
+}
+.menus a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;    
+}
+.btn_primary {
+    padding: 10px 15px;
+    background-color: #e893cf;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 700;
+}
+.login{
+    color: steelblue;
+    margin-left: 5px;
+}
+
+/* Banner */
+
+.banner{
+    max-width: 75rem;
+    margin: 30px auto 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.banner_container{
+    /* border: 2px solid red; */
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.banner_left{
+    /* border: 2px solid red; */
+    width: 50%;
+    
+}
+.banner_right{
+    /* border: 2px solid red; */
+    width: 50%;
+    padding: 10px;
+}
+.banner_right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.banner_head{
+    margin-bottom: 10px;
+    font-size: 50px;
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
+.banner_text{
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 20px;
+}
+.fa-brands{
+
+   font-size: 2.5rem;
+   margin-left: 20px;
+}
+.buttons button{
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 1px solid rgb(43, 3, 43);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 15px;
+    
+}

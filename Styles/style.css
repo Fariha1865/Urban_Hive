@@ -216,3 +216,48 @@ nav{
     left: 33%;
     
 }
+
+/* Customer Review Section */
+
+.review_section{
+    text-align: center;
+    margin-top: 40px;
+}
+.review_container{
+    max-width: 75rem;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+    
+}
+.sale_card{
+    /* width: 5%; */
+    /* border: 2px solid red; */
+    flex-basis: 300px;
+    padding: 20px;
+    background-color: #E893CF;
+    border-radius: 8px;
+
+}
+.sale_card p{
+    margin-top: 10px;
+    text-align: left;
+}
+.sale_card img{
+    width: 20%;
+}
+.sale_card_top{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Footer */
+
+.footer_container{
+    background-color: #9376;
+}

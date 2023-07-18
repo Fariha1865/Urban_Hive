@@ -33,5 +33,13 @@
         margin-top: 20px;
     }
 
+    .products{
+
+        display: grid; 
+        padding: 10px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    
+    }
    
 }

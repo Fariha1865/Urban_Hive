@@ -55,9 +55,18 @@
         margin: 0 20%;
        
     }
-    .foteer_logo{
-
-      
+    .sale{
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        background-color: burlywood;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        position: absolute;
+        left: 56%;
+        
     }
    
 }

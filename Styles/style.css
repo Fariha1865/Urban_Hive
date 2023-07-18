@@ -5,8 +5,9 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
        
+}.pink_text{
+    color: #e893cf;
 }
-
 
 nav{
 
@@ -260,4 +261,9 @@ nav{
 
 .footer_container{
     background-color: #9376;
+    text-align: center;
+    padding: 100px;
+}
+.footer_text_color{
+    color: rgb(151, 41, 151);
 }

@@ -166,3 +166,53 @@ nav{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+
+/* Sale_Section */
+
+.sale_left, .sale_right{
+
+          width: 50%;
+          /* border: 2px solid red; */
+}
+
+.sale_left{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.sale_left img{
+
+    width: 70%;
+    height: 70%;
+}
+
+.sale_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #382863;
+    margin-top: 60px;
+    position: relative;
+    
+}
+.sale_btn{
+    padding: 30px;
+    margin: 0 30%;
+}
+
+.sale{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    left: 33%;
+    
+}
